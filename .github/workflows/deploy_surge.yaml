@@ -1,3 +1,4 @@
+#gygbgjkkkkkkkkkkkkbgg
 name: Deploy Website
 
 # Controls when the action will run. Triggers the workflow on push or pull request
@@ -26,6 +27,6 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: run surge
-      run: surge ./ bootcamp2020bilal26901.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build bootcamp2020bilal26901.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
      
